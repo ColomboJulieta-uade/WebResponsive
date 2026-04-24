@@ -92,22 +92,19 @@ footer {
 
 @media (max-width: 600px) {
     body {
-        padding-top: 260px; 
+        padding-top: 280px; 
     }
     header {
-        padding: 15px 5px; 
-    }
-    nav ul {
-        background: none; 
-        padding: 0;
+        padding: 20px 10px;
     }
     nav ul li {
-        display: block;
-        margin: 12px 0; 
+        display: block; 
+        margin: 15px 0; 
     }
     nav ul li a {
-        display: inline-block;
-        width: 70%; 
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px;
     }
 }
